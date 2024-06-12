@@ -1,0 +1,59 @@
+23:32:34 - Starting servent [17|localhost|1200]
+23:32:34 - Pausing for 40000 ms
+# MY CONNECTING PARTNERS PORT IS 1100
+23:32:36 - Sending message [17|1200|0||NEW_NODE|1100|35]
+23:32:37 - Got message [35|1100|0||WELCOME|1200|17]
+23:32:38 - Sending message [17|1200|1||UPDATE|1100|35]
+23:32:38 - Got message [17|1200|1|1100|UPDATE|1200|17]
+23:32:39 - Sending message [17|1200|2||NEW_NODE_JOIN|1100|35]
+23:32:41 - Got message [35|1100|2||TOKEN|1200|17]
+23:32:42 - Sending message [17|1200|3||TOKEN|1100|35]
+23:32:43 - Got message [35|1100|3||TOKEN|1200|17]
+23:32:43 - Sending message [17|1200|4||TOKEN|1100|35]
+23:32:44 - Got message [35|1100|4||TOKEN|1200|17]
+23:32:45 - Sending message [17|1200|5||TOKEN|1100|35]
+23:32:46 - Got message [35|1100|5||TOKEN|1200|17]
+23:32:47 - Sending message [17|1200|6||TOKEN|1100|35]
+23:32:47 - Got message [62|1300|6||NEW_NODE|1200|17]
+23:32:47 - Got message [35|1100|7||TOKEN|1200|17]
+23:32:48 - Sending message [17|1200|7||WELCOME|1300|62]
+23:32:49 - Got message [62|1300|1||UPDATE|1200|17]
+23:32:51 - Sending message [62|1300|8|1200|UPDATE|1100|35]
+23:32:54 - Got message [62|1300|2||NEW_NODE_JOIN|1200|17]
+23:32:55 - Sending message [17|1200|9||TOKEN|1100|35]
+23:32:56 - Got message [57|1400|0||NEW_NODE|1200|17]
+23:32:56 - Sending message [57|1400|10||NEW_NODE|1100|35]
+23:32:57 - Got message [62|1300|3||TOKEN|1200|17]
+23:32:58 - Sending message [17|1200|11||TOKEN|1100|35]
+23:33:03 - Got message [57|1400|5|1300|UPDATE|1200|17]
+23:33:03 - Sending message [57|1400|12|1300,1200|UPDATE|1100|35]
+23:33:05 - Got message [62|1300|6||TOKEN|1200|17]
+23:33:06 - Sending message [17|1200|13||TOKEN|1100|35]
+23:33:07 - Got message [9|1600|7||NEW_NODE|1200|17]
+23:33:10 - Got message [62|1300|8||TOKEN|1200|17]
+23:33:11 - Sending message [17|1200|14||WELCOME|1600|9]
+23:33:12 - Got message [9|1600|1||UPDATE|1200|17]
+23:33:13 - Sending message [9|1600|15|1200|UPDATE|1100|35]
+23:33:14 - Pausing for 10000 ms
+23:33:18 - Got message [9|1600|2||NEW_NODE_JOIN|1200|17]
+23:33:20 - Sending message [17|1200|16||TOKEN|1100|35]
+23:33:24 - Got message [9|1600|3||TOKEN|1200|17]
+23:33:24 - Adding file...
+23:33:25 - Sending message [17|1200|17||TOKEN|1100|35]
+23:33:30 - Got message [9|1600|4||TOKEN|1200|17]
+23:33:30 - File E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt added.
+23:33:30 - Pausing for 10000 ms
+23:33:31 - Sending message [17|1200|19||TOKEN|1100|35]
+23:33:31 - Sending message [17|1200|18||ADD_FILE|1100|35]
+23:33:35 - Got message [9|1600|5||ADD_FILE|1200|17]
+23:33:35 - File E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt already exists.
+23:33:35 - Got message [9|1600|6||TOKEN|1200|17]
+23:33:36 - Sending message [17|1200|20||TOKEN|1100|35]
+23:33:40 - Removing file...
+23:33:40 - File path: E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt args: E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt
+23:33:41 - Got message [9|1600|7||TOKEN|1200|17]
+23:33:41 - File E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt removed.
+23:33:41 - Pausing for 10000 ms
+23:33:41 - Sending message [17|1200|21||REMOVE_FILE|1100|35]
+23:33:42 - Sending message [17|1200|22||TOKEN|1100|35]
+23:33:51 - Stopping...

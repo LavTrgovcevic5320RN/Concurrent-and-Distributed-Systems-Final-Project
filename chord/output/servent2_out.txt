@@ -1,0 +1,41 @@
+23:32:44 - Starting servent [62|localhost|1300]
+23:32:44 - Pausing for 30000 ms
+# MY CONNECTING PARTNERS PORT IS 1100
+23:32:45 - Sending message [62|1300|0||NEW_NODE|1100|35]
+23:32:48 - Got message [17|1200|7||WELCOME|1300|62]
+23:32:49 - Sending message [62|1300|1||UPDATE|1200|17]
+23:32:52 - Got message [62|1300|8|1200,1100|UPDATE|1300|62]
+23:32:54 - Sending message [62|1300|2||NEW_NODE_JOIN|1200|17]
+23:32:55 - Got message [35|1100|9||TOKEN|1300|62]
+23:32:57 - Sending message [62|1300|3||TOKEN|1200|17]
+23:32:57 - Got message [57|1400|10||NEW_NODE|1300|62]
+23:32:59 - Got message [35|1100|11||TOKEN|1300|62]
+23:33:00 - Sending message [62|1300|4||WELCOME|1400|57]
+23:33:02 - Got message [57|1400|1||UPDATE|1300|62]
+23:33:03 - Sending message [57|1400|5|1300|UPDATE|1200|17]
+23:33:05 - Got message [57|1400|2||NEW_NODE_JOIN|1300|62]
+23:33:05 - Sending message [62|1300|6||TOKEN|1200|17]
+23:33:05 - Got message [9|1600|0||NEW_NODE|1300|62]
+23:33:07 - Sending message [9|1600|7||NEW_NODE|1200|17]
+23:33:09 - Got message [57|1400|3||TOKEN|1300|62]
+23:33:10 - Sending message [62|1300|8||TOKEN|1200|17]
+23:33:14 - Pausing for 12000 ms
+23:33:15 - Got message [9|1600|4|1200,1100,1400|UPDATE|1300|62]
+23:33:17 - Sending message [9|1600|9|1200,1100,1400,1300|UPDATE|1600|9]
+23:33:22 - Got message [57|1400|5||TOKEN|1300|62]
+23:33:22 - Sending message [62|1300|10||TOKEN|1600|9]
+23:33:26 - Adding friend...
+23:33:26 - Friend localhost:1100 added.
+23:33:26 - Pausing for 10000 ms
+23:33:27 - Got message [57|1400|6||TOKEN|1300|62]
+23:33:28 - Sending message [62|1300|11||TOKEN|1600|9]
+23:33:32 - Got message [57|1400|7||TOKEN|1300|62]
+23:33:32 - Got message [57|1400|8||ADD_FILE|1300|62]
+23:33:32 - File E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt added.
+23:33:33 - Sending message [62|1300|13||ADD_FILE|1600|9]
+23:33:34 - Sending message [62|1300|12||TOKEN|1600|9]
+23:33:36 - Viewing files...
+23:33:38 - Got message [57|1400|9||TOKEN|1300|62]
+23:33:39 - Pausing for 10000 ms
+23:33:39 - Sending message [62|1300|14||TOKEN|1600|9]
+23:33:49 - Stopping...

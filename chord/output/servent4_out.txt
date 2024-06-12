@@ -1,0 +1,23 @@
+23:33:04 - Starting servent [9|localhost|1600]
+23:33:04 - Pausing for 10000 ms
+# MY CONNECTING PARTNERS PORT IS 1300
+23:33:05 - Sending message [9|1600|0||NEW_NODE|1300|62]
+23:33:11 - Got message [17|1200|14||WELCOME|1600|9]
+23:33:12 - Sending message [9|1600|1||UPDATE|1200|17]
+23:33:14 - Pausing for 20000 ms
+23:33:17 - Got message [9|1600|9|1200,1100,1400,1300|UPDATE|1600|9]
+23:33:18 - Sending message [9|1600|2||NEW_NODE_JOIN|1200|17]
+23:33:22 - Got message [62|1300|10||TOKEN|1600|9]
+23:33:24 - Sending message [9|1600|3||TOKEN|1200|17]
+23:33:28 - Got message [62|1300|11||TOKEN|1600|9]
+23:33:30 - Sending message [9|1600|4||TOKEN|1200|17]
+23:33:33 - Got message [62|1300|13||ADD_FILE|1600|9]
+23:33:33 - File E:\projekat-LavTrgovcevic5320RN\files\servent0\public.txt added.
+23:33:34 - Got message [62|1300|12||TOKEN|1600|9]
+23:33:34 - Pausing for 10000 ms
+23:33:35 - Sending message [9|1600|5||ADD_FILE|1200|17]
+23:33:35 - Sending message [9|1600|6||TOKEN|1200|17]
+23:33:39 - Got message [62|1300|14||TOKEN|1600|9]
+23:33:41 - Sending message [9|1600|7||TOKEN|1200|17]
+23:33:44 - Pausing for 10000 ms
+23:33:54 - Stopping...
